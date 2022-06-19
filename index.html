@@ -13,34 +13,51 @@
         <div class="app-container d-flex">
             <div class="results d-flex">
                 <div id="evaluation" class="eval"></div>
-                <div contenteditable="true" id="end-result" class="end-result"></div>
+                <div onPaste="return false" contenteditable="true" id="end-result" class="end-result"></div>
             </div>
-            <div class="main-buttons d-flex">
-                <div class="simple-buttons d-flex">
-                    <div class="clean-buttons d-flex">
-                        <button id="clean-all" class="clean-button">C</button>
-                        <button class="clean-button" id="delete-char">X</button>
-                    </div>
-                    <div class="nums-and-operations d-grid">
-                        <button class="simple-num" id="simple-num">7</button>
-                        <button class="simple-num" id="simple-num">8</button>
-                        <button class="simple-num" id="simple-num">9</button>
-                        <button class="simple-num" id="simple-num">*</button>
-                        <button class="simple-num" id="simple-num">4</button>
-                        <button class="simple-num" id="simple-num">5</button>
-                        <button class="simple-num" id="simple-num">6</button>
-                        <button class="simple-num" id="simple-num">-</button>
-                        <button class="simple-num" id="simple-num">1</button>
-                        <button class="simple-num" id="simple-num">2</button>
-                        <button class="simple-num" id="simple-num">3</button>
-                        <button class="simple-num" id="simple-num">+</button>
-                        <button class="simple-num" id="simple-num">.</button>
-                        <button class="simple-num" id="simple-num">0</button>
-                        <button class="simple-num" id="simple-num">/</button>
-                        <button class="simple-num" id="simple-num">=</button>
-                    </div>
+            <div class="simple-buttons d-flex">
+                <div class="clean-buttons d-flex">
+                    <button id="clean-all" class="clean-button">C</button>
+                    <button class="clean-button" id="delete-char">X</button>
                 </div>
-                <div class="advanced-buttons"></div>
+                <div class="nums-and-operations d-flex">
+                <div class="first-wrapper d-grid">
+                    <button class="simple-num" id="simple-num">7</button>
+                    <button class="simple-num" id="simple-num">8</button>
+                    <button class="simple-num" id="simple-num">9</button>
+                    <button class="simple-num" id="simple-num">/</button>
+                    <button class="simple-num" id="simple-num">4</button>
+                    <button class="simple-num" id="simple-num">5</button>
+                    <button class="simple-num" id="simple-num">6</button>
+                    <button class="simple-num" id="simple-num">*</button>
+                    <button class="simple-num" id="simple-num">1</button>
+                    <button class="simple-num" id="simple-num">2</button>
+                    <button class="simple-num" id="simple-num">3</button>
+                    <button class="simple-num" id="simple-num">-</button>
+                    <button class="simple-num" id="simple-num">.</button>
+                    <button class="simple-num" id="simple-num">0</button>
+                    <button class="simple-num" id="simple-num">=</button>
+                    <button class="simple-num" id="simple-num">+</button>
+                </div>
+                <div class="second-wrapper d-grid">
+                    <button class="simple-num" id="advanced-btn">sin</button>
+                    <button class="simple-num" id="advanced-btn">cos</button>
+                    <button class="simple-num" id="advanced-btn">tan</button>
+                    <button class="simple-num" id="advanced-btn">ctg</button>
+                    <button class="simple-num" id="advanced-btn">sec</button>
+                    <button class="simple-num" id="advanced-btn">csec</button>
+                    <button class="simple-num" id="advanced-btn">PI</button>
+                    <button class="simple-num" id="advanced-btn">e</button>
+                    <button class="simple-num" id="advanced-btn">ln</button>
+                    <button class="simple-num" id="advanced-btn">log</button>
+                    <button class="simple-num" id="advanced-btn">!</button>
+                    <button class="simple-num" id="advanced-btn">MOD</button>
+                    <button class="simple-num" id="advanced-btn">(</button>
+                    <button class="simple-num" id="advanced-btn">)</button>
+                    <button class="simple-num" id="advanced-btn">^</button>
+                    <button class="simple-num" id="advanced-btn">&#8730;</button>
+                </div>
+                </div>
             </div>
         </div>
     </div>
